@@ -7,6 +7,7 @@ a = 0
 
 @app.route('/')
 def hello_world():
+    global a
     a += 1
     return f'''
     <h1>{str(datetime.datetime.now())}</h1>
