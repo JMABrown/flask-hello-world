@@ -22,7 +22,7 @@ def java_script():
     return f''' 
 <body>
     <div id="output"></div>
-    <script src="static/javascript_hello.js"></script>
     <button id="bye_button">Goodbye</button>
+    <script src="static/javascript_hello.js"></script>
 </body>
     '''
