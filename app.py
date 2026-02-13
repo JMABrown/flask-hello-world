@@ -17,11 +17,11 @@ def hello_world():
     </center>
     '''
 
-@app.route('/js')
+@app.route('/jelloshello')
 def java_script():
-    return f'''
-    <head>
-        <script type = "text/javascript" src = "javascript_hello.js" ></script>
-        <div id = "output"> </div>
-    </head>
+    return f''' 
+<body>
+    <div id="output"></div>
+    <script src="static/javascript_hello.js"></script>
+</body>
     '''
