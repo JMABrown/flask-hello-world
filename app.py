@@ -14,5 +14,14 @@ def hello_world():
     <h2>Visits : {a}<h2>
     <center>
     <img loading="lazy" src="chipmusic/chipmusic-discovery/SonicGame.png" alt="Sonic" width="56" height="85" border="0" align="top" title="Sonic">
-    </center
+    </center>
+    '''
+
+@app.route('/js')
+def java_script():
+    return f'''
+    <head>
+        <script type = "text/javascript" src = "javascript_hello.js" ></script>
+        <div id = "output"> </div>
+    </head>
     '''
