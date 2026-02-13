@@ -23,5 +23,6 @@ def java_script():
 <body>
     <div id="output"></div>
     <script src="static/javascript_hello.js"></script>
+    <button id="bye_button">Goodbye</button>
 </body>
     '''
